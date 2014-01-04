@@ -84,7 +84,9 @@
            <branch>phaseOne</branch>
            <username>maskofG</username>
            <password>mask533</password>
-           
+           <pushChanges>true</pushChanges>
+           <connectionUrl>scm:git:git://github.com/maskofG/shareyourrecipe.git</connectionUrl>
+           <developerConnectionUrl>scm:git:git@github.com/maskofG/shareyourrecipe.git</developerConnectionUrl>
           </configuration>
         </plugin>
       
@@ -98,12 +100,7 @@
    </repository> -->
   </repositories>
   
-  <scm>
-    <connection>https://github.com:maskofG/shareyourrecipe.git</connection>
-    <developerConnection>https://github.com:maskofG/shareyourrecipe.git</developerConnection>
-    <url>https://github.com/maskofG/shareyourrecipe.git</url>
-    <tag>HEAD</tag>
-  </scm>
+
   
 
 </project>
