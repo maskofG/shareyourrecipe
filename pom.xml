@@ -79,28 +79,32 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-plugin</artifactId>
           <version>1.8.1</version>
-          <configuration>
-           <message>Commiting the latest revised code for shareyourrecipe</message>
-           <branch>master</branch>
-           <username>maskofG</username>
-           <password>mask533</password>
-           <pushChanges>true</pushChanges>
-           <connectionUrl>scm:git:git://github.com/maskofG/shareyourrecipe.git</connectionUrl>
-           <developerConnectionUrl>scm:git:git@github.com/maskofG/shareyourrecipe.git</developerConnectionUrl>
-          </configuration>
+          <executions>
+            <execution>
+            <phase>install</phase>
+            <goals>
+              <goal>checkin</goal>
+            </goals>
+            <configuration>
+              <message>Commiting the latest revised code for shareyourrecipe</message>
+              <branch>master</branch>
+              <username>maskofG</username>
+              <password>mask533</password>
+              <pushChanges>true</pushChanges>
+              <scmConnection>PhaseOne</scmConnection>
+            </configuration>
+           </execution>
+         </executions>
         </plugin>
       
     </plugins>
   </build>
-  <repositories>
-<!--   <repository>
-    <id>spring-milestone</id>
-    <name>Spring Maven MILESTONE Repository</name>
-    <url>http://repo.springsource.org/libs-milestone</url>
-   </repository> -->
-  </repositories>
   
-
-  
+  <scm>
+    <connection>scm:git:git://github.com/maskofG/shareyourrecipe.git</connection>
+    <developerConnection>scm:git:git@github.com/maskofG/shareyourrecipe.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/maskofG/shareyourrecipe.git</url>
+  </scm>
 
 </project>
