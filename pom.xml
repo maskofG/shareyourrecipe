@@ -81,7 +81,7 @@
           <version>1.8.1</version>
           <configuration>
            <message>Commiting the latest revised code for shareyourrecipe</message>
-           <branch>phaseOne</branch>
+           <branch>master</branch>
            <username>maskofG</username>
            <password>mask533</password>
            <pushChanges>true</pushChanges>
