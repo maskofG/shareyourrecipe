@@ -104,7 +104,7 @@
     <connection>scm:git:git://github.com/maskofG/shareyourrecipe.git</connection>
     <developerConnection>scm:git:git@github.com:maskofG/shareyourrecipe.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/maskofG/shareyourrecipe.git</url>
+    <url>ssh://git@github.com:maskofG/shareyourrecipe.git</url>
   </scm>
 
 </project>
