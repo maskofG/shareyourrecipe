@@ -87,7 +87,7 @@
             </goals>
             <configuration>
               <message>Commiting the latest revised code for shareyourrecipe</message>
-              <branch>master</branch>
+              <branch>PhaseOne</branch>
               <username>maskofG</username>
               <password>mask533</password>
               <pushChanges>true</pushChanges>
